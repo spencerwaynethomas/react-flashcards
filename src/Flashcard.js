@@ -2,7 +2,7 @@ import React from "react"
 import {Button, Card} from "semantic-ui-react"
 
 const Flashcard = ({ flashcard }) => (  
-  <Card> 
+  <Card class="Card"> 
     <Card.Content>
       <Card.Header> flashcards </Card.Header>
       <Card.Content> 
